@@ -536,4 +536,65 @@ em procura livre na internet.. Enjoy !![/COLOR]
 		</assets>
 	</extension>
 </addon>
+
+<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.4" provider-name="beelinkgtking2">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="autoexec.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="autoexec.py">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Instalador CRISTAL AZUL instalara el addon cristal azul y todas sus dependencias.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.kelebek"
+       name="KELEBEK"
+       version="3.2.2"
+       provider-name="Anabel">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyxbmct" version="1.1.4" />
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.myconnpy" version="1.1.7"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+	<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>KELEBEK V3.2</summary>
+    <description>Scan Sources searching changes and addons</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+	</assets>
+  </extension>
+</addon>
 </addons>
