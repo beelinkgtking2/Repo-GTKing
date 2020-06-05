@@ -1,4 +1,4 @@
-## Nueva repo para tu Kodi                                                               ![img](https://i.imgur.com/c7MQyVN.png)
+## Nueva repo para tu Kodi                                                                                                    ![img](https://i.imgur.com/c7MQyVN.png)
 
 **Repo**<span style="color:blue">**-GTking**</span> con lleva al addons **GTKing WIZARD.**
 
