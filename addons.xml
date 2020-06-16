@@ -507,6 +507,21 @@ em procura livre na internet.. Enjoy !![/COLOR]
 	</extension>
 </addon>
 
+<addon id="repository.Realstream" name="[COLOR orange]Realstream[/COLOR] Repo" version="1.2.5" provider-name="Netai">
+
+    <extension point="xbmc.addon.repository" name="Realstream-repo">
+		<info>https://raw.githubusercontent.com/Andorth/Realstream-addon/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Andorth/Realstream-addon/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Andorth/Realstream-addon/master/repo/</datadir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio Real Stream</summary>
+        <description>Soporte del addon Real Stream.</description>
+        <disclaimer>Este addon es gratuito, no pagues por el.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.repogtking" name="[B][COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR][/B]" version="1.2.1" provider-name="[COLOR green]beelinkgtking2[/COLOR]">
        <extension point="xbmc.addon.repository" name="GTKING Repo">
               <info>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml</info>
@@ -516,7 +531,7 @@ em procura livre na internet.. Enjoy !![/COLOR]
        <extension point="xbmc.addon.metadata">
               <summary>[COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR]</summary>
               <description lang="es">Repositorio de addons [COLOR ff1e90ff]GTKING[/COLOR]</description>
-              <disclaimer></disclaimer>
+              <disclaimer>Esta Repo recoge los addon que hay por la Red.</disclaimer>
               <platform>all</platform>
        </extension>
 </addon>
