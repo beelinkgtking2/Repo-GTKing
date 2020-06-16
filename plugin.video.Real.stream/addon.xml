@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.Real.stream"
+       name="[COLOR fuchsia]Real Stream[/COLOR]"
+       version="2.32"
+       provider-name="Grupo Netai">
+
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver" version="5.0.00"/>
+	<import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.extendedinfo" optional="true"/>
+
+  </requires>
+
+ <dir>
+  		<info>https://raw.githubusercontent.com/Andorth/Realstream-Repo/master/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Andorth/Realstream-Repo/master/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Andorth/Realstream-Repo/master/repo/</datadir>
+ </dir>
+
+    <news>
+	[COLOR orange]
+	Cambios en esta version:
+	[/COLOR]
+	[COLOR gold]
+	- Realstream ahora necesita Registro de usuario individual.
+	- Soporte multi enlace de servidores.
+	- Agregadas nuevas categorias de Peliculas.
+	- Anulado Uptobox de lista de servidores.
+	- Agregado el script.urlresolver
+	- Agregado nuevo codificado y encriptado del source base.
+	[/COLOR]
+    </news>
+  <extension point="xbmc.python.pluginsource" library="run.py">
+
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  <summary lang="es">Realstream</summary>
+  <description lang="es">[COLOR white]Este addon es privado, y gratuito. No alojamos ningun contenido dentro del mismo. Solo mostramos contenido de sitios publicos de acceso libre en internet. No aceptamos donaciones ni pagos de ningun tipo. No pagues por este addon.[/COLOR]</description>
+  <disclaimer>
+  [COLOR red]Nosotros, ni nuestros usuarios alojamos ningun contenido en este addon. Todo el contenido proviene de internet de sitios publicos. Disponible para todo el mundo de forma publica y gratuita.[/COLOR]</disclaimer>
+  <platform>all</platform>
+  <license>GNU GPL v3</license>
+  <platform>all</platform>
+  </extension>
+</addon>
