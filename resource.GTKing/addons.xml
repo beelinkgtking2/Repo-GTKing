@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="resource.GTKing Prime" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]Prime[/COLOR]" version="2.1" provider-name="gtking"><requires>
+<addon id="resource.GTKing" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1" provider-name="gtking"><requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.metahandler" optional="true" />
   </requires>
