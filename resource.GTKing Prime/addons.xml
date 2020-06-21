@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="resource.GTKing Prime" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]Prime[/COLOR]" version="2.1" provider-name="gtking">
-  <requires>
-    <import addon="xbmc.python" version="2.1"/>
+<addons>
+<addon id="resource.GTKing Prime" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]Prime[/COLOR]" version="2.1" provider-name="gtking"><requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.metahandler" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
+        <provides>audio image executable</provides>
   </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Comprobador, version Build y Parches de [COLOR dodgerblue]GTKing[/COLOR]</summary>
     <description lang="en">Comprobador, version Build y Parches de [COLOR dodgerblue]GTKing[/COLOR]</description>
 	<disclaimer lang="en">Nuevo icono de [B][COLOR green]Torrent[/COLOR] MediaExplorer[/B]</disclaimer>
     <platform>all</platform>
-  </extension>
+   <news>
+    Nuevo icono Torrent
+	actualizacion de MediExplorer
+    </news>
+		</extension>
 </addon>
+</addons>
+
+
+
+
+
+
