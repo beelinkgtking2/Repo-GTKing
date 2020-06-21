@@ -1,6 +1,0 @@
-<settings>
-    <setting id="autoclean" value="false" />
-    <setting id="clearcache" value="false" />
-    <setting id="clearpackages" value="false" />
-    <setting id="version" value="2.1" />
-</settings>
