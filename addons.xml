@@ -1,59 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="inputstream.adaptive" version="2.4.2.1" name="InputStream Adaptive" provider-name="peak3d">
-  <requires>
-<import addon="mygica.media.center.binary.global.main"  optional="true"/>
-<import addon="mygica.media.center.binary.global.general"  optional="true"/>
-<import addon="mygica.media.center.binary.global.filesystem"  optional="true"/>
-<import addon="mygica.media.center.binary.instance.inputstream"  optional="true"/>
-<import addon="mygica.media.center.binary.instance.videocodec"  optional="true"/>
-  </requires>
-  <extension point="mygica.media.center" name="adaptive" extension="" tags="true" listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|max_bandwidth" library_linux="inputstream.adaptive.so.2.4.2"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">InputStream client for adaptive streams</summary>
-    <description lang="en">InputStream client for adaptive streams</description>
-    <platform/>
-    <news>
-v2.4.2 (2019-09-02)
-- Fix versioning
-
-v2.3.22 (2019-06-14)
-- Bento4: sample duration workaround (24/1)
-- WVDecrypter: remove sleep between decrypt calls
-
-v2.3.21 (2019-06-07)
-- [DASH] initialize segment::range_begin_ for URL segments (youtube)
-
-v2.3.20 (2019-06-07)
-- Fix parsing PR ContentProtection KID
-
-v2.3.19 (2019-06-02)
-- [widevine] remove API 8 / Add API 11
-- [TS] Signal configuration change if extra-data has changed
-- [DASH] Use PlayReady WRMHEADER to retrieve DefaultKID
-- [DASH] Allow URL_SEGMENTS + Range-Bytes
-
-v2.3.18 (2019-05-11)
-- align settings with internal resolution check
-- [HLS] support single playlists
-
-v2.3.17 (2019-04-16)
-- Fix KID's with 0 char inside
-
-v2.3.16 (2019-03-25)
-- TTML parser fix
-- [HLS] Add HEVC streams / Fix extra_data_size in ts parser
-- [HLS] effective URL for license
-
-v2.3.15 (2019-02-11)
-- Fix windows build
-
-v2.3.14 (2019-02-10)
-- Add WebM container parser
-	</news>
-  </extension>
-</addon>
-
 <addon id="plugin.video.alfa" name="[COLOR gold]Alfa[/COLOR]" version="3.1.5" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
@@ -597,7 +543,7 @@ em procura livre na internet.. Enjoy !![/COLOR]
     </extension>
 </addon>
 
-<addon id="repository.repogtking" name="[B][COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR][/B]" version="1.2.4" provider-name="[COLOR green]beelinkgtking2[/COLOR]">
+<addon id="repository.repogtking" name="[B][COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR][/B]" version="1.2.5" provider-name="[COLOR green]beelinkgtking2[/COLOR]">
        <extension point="xbmc.addon.repository" name="GTKING Repo">
               <info>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml</info>
               <checksum>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml.md5</checksum>
