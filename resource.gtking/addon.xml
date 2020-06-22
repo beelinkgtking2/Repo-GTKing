@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="resource.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1" provider-name="Manu, Josa, David y Sugea">
+<addon id="resource.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1.1" provider-name="Manu, Josa, David y Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1"/>
   </requires>
