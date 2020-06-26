@@ -644,7 +644,7 @@ em procura livre na internet.. Enjoy !![/COLOR]
 	</extension>
 </addon>
 
-<addon id="resource.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1.1" provider-name="Manu, Josa, David y Sugea">
+<addon id="resource.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1.2" provider-name="Manu, Josa, David y Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

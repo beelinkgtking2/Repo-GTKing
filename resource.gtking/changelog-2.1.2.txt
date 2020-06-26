@@ -1,0 +1,5 @@
+[B]Version 2.1.0[/B]
+Actualización GTKing Prime con nuevos atajos e icono MediaExplorer
+
+[B]Version 2.0[/B]
+Primera versión de GTKing Prime 
