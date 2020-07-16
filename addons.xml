@@ -71,213 +71,6 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="[COLOR gold]Alfa[/COLOR]" version="3.1.5" provider-name="Alfa Addon">
-  <requires>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.beautifulsoup4" version="4.5.3"/>
-    <import addon="script.module.html5lib" version="0.999.0"/>
-    <import addon="script.alfa-update-helper" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Navega con Kodi por páginas web.</summary>
-    <assets>
-      <icon>resources/logo2.png</icon>
-      <fanart>resources/fanart1.jpg</fanart>
-      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
-      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
-    </assets>
-      <news>[B]Estos son los cambios para esta versión:[/B]
-
-      [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Allcalidad                               ¤ Pelismundo                            ¤ 123pelis
-      ¤ AnimeFLV.ru                          ¤ Animejl                                   ¤ Cineclasicoonline
-      ¤ PoseidonHD                          ¤ UltrapeliculasHD                   ¤ Dailymotion
-      ¤ Cinetorrent                            ¤ Divxtotal                                 ¤ Dontorrent
-      ¤ Newpct1 (rediseño)              ¤ +18
-
-      [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Myvi (servidor)                      ¤ Vidia (servidor)                       ¤ Zplayer (servidor)
-      ¤ Mitorrent (Latino)                 ¤ +18
-      ¤ Sistema automático para reiniciar instalaciones fallidas de Alfa
-
-      Agradecimientos a @roliverosc y @zapan por su colaboración en esta versión
-
-    </news>
-    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
-    <summary lang="en">Browse web pages using Kodi</summary>
-    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
-    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>foro</forum>
-    <website>web</website>
-    <email>my@email.com</email>
-    <source>https://github.com/alfa-addon/addon</source>
-  </extension>
-  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
-  </extension>
-</addon>
-
-<addon id="plugin.video.balandro" name="Balandro" version="1.4.13" provider-name="Balandro">
-
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary lang="es">Balandro addon</summary>
-    <description lang="es">Balandro es un navegador para webs con vídeos de películas y series, derivado de pelisalacarta y alfa.</description>
-    <disclaimer lang="es">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-
-    <news>Últimas modificaciones de Balandro:
-
-    Canales modificados: Allpeliculas, Documentalesonline, Descargacineclasico, Cinefox,
-    Grantorrent, Torrentdivx, Wikiseries, Zoowoman.
-    Servidores modificados: Streamz, Archiveorg, Peertube, Streamtape.
-    </news>
-
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-
-    <platform>all</platform>
-    <license>GNU GPL v3</license>
-    <forum>https://www.mimediacenter.info/foro/viewforum.php?f=44</forum>
-    <website>https://balandro.tk</website>
-    <email>my@email.com</email>
-    <source>...</source>
-  </extension>
-
-  <extension point="xbmc.service" library="services.py" start="login|startup"/>
-
-</addon>
-
-<addon id="plugin.video.cristalazul"
-       name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.7"
-       provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" />
-    <import addon="script.module.urlresolver" />
-	<import addon="script.module.resolveurl" />
-    <import addon="script.module.inputstreamhelper" optional="true"/>
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.slproxy" optional="true"/>
-	<import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-    <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-   <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
-    </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>creado por picapau, lourdes, supertopo y luisma</summary>
-    <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
-	</description>ºº
-    <platform>all</platform>
-	  <assets>
-		<icon>icon.gif</icon>
-		<fanart>fanart.jpg</fanart>
-	  </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.live.magellan"
-       name="[COLOR yellow]Magellan[/COLOR]"
-       version="2.7.4"
-       provider-name="[COLOR orange][B]IKE[/B][/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" optional="true"/>
-    <import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
-     <import addon="script.module.livestreamer" optional="true"/>
-     <import addon="script.module.pyamf" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>[COLOR blue]Magellan Addon- shamelessly forked from livestreamspro[/COLOR]</summary>
-    <description>
-       [COLOR pink]Addon Magellan : Todos os links disponibilizados no Addon estao disponiveis
-em procura livre na internet.. Enjoy !![/COLOR]
-
-
-    </description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.77" provider-name="TierraMedia">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.simple.downloader" version="1.9.5"/>
-	<import addon="script.module.requests"/>
-    <import addon="script.module.resolveurl" optional="true"/>
-    <import addon="script.extendedinfo" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="orthanc.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.repository" name="Palantir Repo">
-        <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.77 [/B][/COLOR]
-        - [Interno] Añadido Pelis por puntuación.
-        - [Interno] Posibilidad de cambiar el color a la puntuación.
-    </news>
-    <description>Visualiza el contenido de la nube, series, películas.</description>
-    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.gif</fanart>
-    </assets>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.quasar" name="Quasar" version="0.9.78" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
@@ -310,55 +103,6 @@ em procura livre na internet.. Enjoy !![/COLOR]
     </extension>
 </addon>
 
-<addon id="plugin.video.Real.stream"
-       name="[COLOR fuchsia]Real Stream[/COLOR]"
-       version="2.32"
-       provider-name="Grupo Netai">
-
-
-  <requires>
-
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver" version="5.0.00"/>
-	<import addon="script.module.resolveurl" version="5.0.00"/>
-    <import addon="script.extendedinfo" optional="true"/>
-
-  </requires>
-
- <dir>
-  		<info>https://raw.githubusercontent.com/Andorth/Realstream-Repo/master/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Andorth/Realstream-Repo/master/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Andorth/Realstream-Repo/master/repo/</datadir>
- </dir>
-
-    <news>
-	[COLOR orange]
-	Cambios en esta version:
-	[/COLOR]
-	[COLOR gold]
-	- Realstream ahora necesita Registro de usuario individual.
-	- Soporte multi enlace de servidores.
-	- Agregadas nuevas categorias de Peliculas.
-	- Anulado Uptobox de lista de servidores.
-	- Agregado el script.urlresolver
-	- Agregado nuevo codificado y encriptado del source base.
-	[/COLOR]
-    </news>
-  <extension point="xbmc.python.pluginsource" library="run.py">
-
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  <summary lang="es">Realstream</summary>
-  <description lang="es">[COLOR white]Este addon es privado, y gratuito. No alojamos ningun contenido dentro del mismo. Solo mostramos contenido de sitios publicos de acceso libre en internet. No aceptamos donaciones ni pagos de ningun tipo. No pagues por este addon.[/COLOR]</description>
-  <disclaimer>
-  [COLOR red]Nosotros, ni nuestros usuarios alojamos ningun contenido en este addon. Todo el contenido proviene de internet de sitios publicos. Disponible para todo el mundo de forma publica y gratuita.[/COLOR]</disclaimer>
-  <platform>all</platform>
-  <license>GNU GPL v3</license>
-  <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.robtv" name="[B][COLOR skyblue]Rob TV[/COLOR][/B]" version="1.0.1" provider-name="Rob">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -386,32 +130,6 @@ em procura livre na internet.. Enjoy !![/COLOR]
     <description>[COLOR skyblue]Rob TV[/COLOR]</description>
 	<disclaimer></disclaimer>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.swifty" name="Swifty" version="19" provider-name="Swifty">
-  <requires>
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.cryptolib" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.kodi-six" />
-    <import addon="script.module.future" />
-    <import addon="script.module.routing" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <reuselanguageinvoker>false</reuselanguageinvoker>
-    <summary lang="en_GB">Swifty addon</summary>
-    <description lang="en_GB">Swifty addon featuring unofficial streams. Its a TVONE11 mod to support older platforms.</description>
-    <disclaimer lang="en_GB">No stream is provided directly from the author.</disclaimer>
-    <language>en</language>
-    <platform>all</platform>
-    <license>GPL v2</license>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
   </extension>
 </addon>
 
@@ -512,43 +230,6 @@ em procura livre na internet.. Enjoy !![/COLOR]
   </extension>
 </addon>
 
-<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.6" provider-name="Alfa Addon">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
-        <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
-        <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Alfa-Addon</summary>
-        <description></description>
-        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.balandro" name="[COLOR orange]Balandro[/COLOR] Repo" version="1.0.3" provider-name="Balandro">
-	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
-	</requires>
-
-    <extension point="xbmc.addon.repository" name="Balandro Repo">
-        <info>https://balandro.tk/repo/addons.xml</info>
-        <checksum>https://balandro.tk/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://balandro.tk/repo</datadir>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para Balandro</summary>
-        <description>Balandro es un navegador para webs con vídeos de películas y series.</description>
-        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
-        <platform>all</platform>
-    </extension>
-
-</addon>
-
 <addon id="repository.Ghost" name="[B][COLOR ghostwhite]Ghost[/COLOR] [COLOR FFA0A0A4]Repo[/COLOR][/B]" version="2.0.4" provider-name="Ghost">
 	<extension point="xbmc.addon.repository" name="Ghost Repo">
 		<info compressed="false">https://ghost-repo.de/Plugins/addons.xml</info>
@@ -562,31 +243,16 @@ em procura livre na internet.. Enjoy !![/COLOR]
 	</extension>
 </addon>
 
-<addon id="repository.Realstream" name="[COLOR orange]Realstream[/COLOR] Repo" version="1.2.5" provider-name="Netai">
-
-    <extension point="xbmc.addon.repository" name="Realstream-repo">
-		<info>https://raw.githubusercontent.com/Andorth/Realstream-addon/master/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Andorth/Realstream-addon/master/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Andorth/Realstream-addon/master/repo/</datadir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio Real Stream</summary>
-        <description>Soporte del addon Real Stream.</description>
-        <disclaimer>Este addon es gratuito, no pagues por el.</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="repository.repogtking" name="[B][COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR][/B]" version="1.2.5" provider-name="[COLOR green]beelinkgtking2[/COLOR]">
-       <extension point="xbmc.addon.repository" name="GTKING Repo">
+<addon id="repository.repogtking" name="[B]Repo [COLOR dodgerblue]GTKING[/COLOR][/B]" version="1.6.7" provider-name="beelinkgtking2">
+       <extension point="xbmc.addon.repository" name="Repo GTKING ">
               <info>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml</info>
               <checksum>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml.md5</checksum>
               <datadir zip="true">https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/</datadir>
        </extension>
        <extension point="xbmc.addon.metadata">
-              <summary>[COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR]</summary>
-              <description lang="es">Repositorio de addons [COLOR ff1e90ff]GTKING[/COLOR]</description>
-              <disclaimer>Esta Repo recoge los addon que hay por la Red.</disclaimer>
+              <summary lang="en">Repo [COLOR dodgerblue]GTKING[/COLOR]</summary>
+              <description lang="en">Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR]</description>
+              <disclaimer>Esta Repo recoge los addons que hay por la Red.</disclaimer>
               <platform>all</platform>
        </extension>
 </addon>
