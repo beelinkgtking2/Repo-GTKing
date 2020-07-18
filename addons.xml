@@ -71,6 +71,33 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
+<addon id="plugin.program.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.0.4" provider-name="Manu, Josa, David y Sugea">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]</summary>
+    <description lang="en">Addon instalador para [COLOR dodgerblue]GTKing[/COLOR]
+Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
+<news>- Versión 2.1.0 de la Build GTKing
+- Mejoras en buffer.
+- Mejoras de aspectos.
+- Nueva distribución de atajos a secciones.
+- Añadido addon MediaExplorer para visionado de contenido.
+- Incluido Forzar Cierre en menú de apagado.
+- Eliminado addon Limpia tu Kodi, para optimizar los buscadores.
+- Cambio del atajo Supercine.
+- Nuevos iconos en Menu de Ajustes.
+- Añadido nuevo Wallpaper en sección addons
+ </news>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.quasar" name="Quasar" version="0.9.78" provider-name="scakemyer">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
