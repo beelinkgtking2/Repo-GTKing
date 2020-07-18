@@ -71,7 +71,7 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
-<addon id="plugin.program.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.0.4" provider-name="Manu, Josa, David y Sugea">
+<addon id="plugin.program.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1.8" provider-name="Manu, Josa, David y Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -83,7 +83,7 @@ v2.3.14 (2019-02-10)
     <summary lang="en">[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]</summary>
     <description lang="en">Addon instalador para [COLOR dodgerblue]GTKing[/COLOR]
 Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
-<news>- Versión 2.1.0 de la Build GTKing
+<news>- Build GTKing Prime
 - Mejoras en buffer.
 - Mejoras de aspectos.
 - Nueva distribución de atajos a secciones.
