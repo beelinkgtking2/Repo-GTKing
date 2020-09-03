@@ -71,7 +71,7 @@ v2.3.14 (2019-02-10)
   </extension>
 </addon>
 
-<addon id="plugin.program.gtking" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]" version="2.1.9" provider-name="Manu, Josa, David y Sugea">
+<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.0" provider-name="Josa, Manu, Davidzgz, Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -80,19 +80,14 @@ v2.3.14 (2019-02-10)
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]WIZARD[/COLOR]</summary>
-    <description lang="en">Addon instalador para [COLOR dodgerblue]GTKing[/COLOR]
+    <summary lang="en">GTKing [COLOR dodgerblue]WIZARD[/COLOR]</summary>
+    <description lang="en">Build GTKing Prime para Kodi 18
 Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
-<news>- Build GTKing Prime
-- Mejoras en buffer.
+<news>- Build [COLOR dodgerblue]GTKing[/COLOR] [COLOR lime]Prime[/COLOR]
+- Instalador actualizado a la versión 2.2.0
 - Mejoras de aspectos.
-- Nueva distribución de atajos a secciones.
-- Añadido addon MediaExplorer para visionado de contenido.
-- Incluido Forzar Cierre en menú de apagado.
-- Eliminado addon Limpia tu Kodi, para optimizar los buscadores.
-- Cambio del atajo Supercine.
+- Limpieza de Kodi automática al instalar la build GTKing Prime.
 - Nuevos iconos en Menu de Ajustes.
-- Añadido nuevo Wallpaper en sección addons
  </news>
     <platform>all</platform>
   </extension>
