@@ -84,12 +84,34 @@ v2.3.14 (2019-02-10)
     <description lang="en">Build GTKing Prime para Kodi 18
 Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
 <news>- Build [COLOR dodgerblue]GTKing[/COLOR] [COLOR lime]Prime[/COLOR]
-- Instalador actualizado a la versión 2.2.1
+- Instalador actualizado a la versión 2.2.0
 - Mejoras de aspectos.
 - Limpieza de Kodi automática al instalar la build GTKing Prime.
 - Nuevos iconos en Menu de Ajustes.
-20/09/2020
-- Corregir textos
+ 21/9/2020
+- Editar textos
+ </news>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.0" provider-name="Josa, Manu, Davidzgz, Sugea">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">GTKing [COLOR dodgerblue]WIZARD[/COLOR]</summary>
+    <description lang="en">Build GTKing Prime para Kodi 18
+Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
+<news>- Build [COLOR dodgerblue]GTKing[/COLOR] [COLOR lime]Prime[/COLOR]
+- Instalador actualizado a la versión 2.2.0
+- Mejoras de aspectos.
+- Limpieza de Kodi automática al instalar la build GTKing Prime.
+- Nuevos iconos en Menu de Ajustes.
  </news>
     <platform>all</platform>
   </extension>
