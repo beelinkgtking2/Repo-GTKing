@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.2" provider-name="Josa, Manu, Davidzgz, Sugea">
+<addon id="plugin.program.gtking" name="GTKING [COLOR dodgerblue]WIZARD[/COLOR]" version="2.2.3" provider-name="Josa, Manu, Davidzgz, Sugea">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -22,6 +22,10 @@ Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
  25/09/2020
  Instalador actualizado a la versión 2.2.2
 - Cambios de textos al instalar parche
+ 28/09/2020
+Instalador actualizado a la versión 2.2.3
+- Cambios de textos al instalar la Build
+05/10/2020
  </news>
     <platform>all</platform>
   </extension>
