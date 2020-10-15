@@ -9,28 +9,33 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">GTKing [COLOR dodgerblue]WIZARD[/COLOR]</summary>
-    <description lang="en">Build GTKing Prime para Kodi 18
-- Testers: [COLOR gold]Mapache, Tete6776, Vicente, zalcos[/COLOR]
+    <description lang="en">Build GTKing Prime para Kodi 18.
+- Testers: Mapache,Tete6776,Vicente,zalcos
 
 - Telegram: [COLOR lime]t.me/beelinkking[/COLOR]</description>
 <news>- Build [COLOR dodgerblue]GTKing[/COLOR] [COLOR lime]Prime[/COLOR]
+15/10/2020
+Instalador actualizado a la versión 2.2.4
+- Cambios de textos al instalar la Build
+
+05/10/2020
+Instalador actualizado a la versión 2.2.3
+- Cambios de textos al instalar la Build
+
+28/09/2020
+ Instalador actualizado a la versión 2.2.2
+- Cambios de textos al instalar parche
+ 
+  25/09/2020
+  Instalador actualizado a la versión 2.2.1
+- Editar textos
+
+21/9/2020
 - Instalador actualizado a la versión 2.2.0
 - Mejoras de aspectos.
 - Limpieza de Kodi automática al instalar la build GTKing Prime.
 - Nuevos iconos en Menu de Ajustes.
- 21/9/2020
- Instalador actualizado a la versión 2.2.1
-- Editar textos
- 25/09/2020
- Instalador actualizado a la versión 2.2.2
-- Cambios de textos al instalar parche
- 28/09/2020
-Instalador actualizado a la versión 2.2.3
-- Cambios de textos al instalar la Build
-05/10/2020
-Instalador actualizado a la versión 2.2.4
-- Cambios de textos al instalar la Build
-15/10/2020
+
  </news>
     <platform>all</platform>
   </extension>
